@@ -1,0 +1,14 @@
+from collections import Counter
+
+s = 'How many times does each word show up in this sentence word times each each word'
+
+words = s.split()
+print(words)
+c = Counter(words)
+
+print("counter words" + Counter(words))
+print(list(c))
+print(set(c))
+print(dict(c))
+print(Counter(dict(list_of_pairs)))
+print(c.most_common()[:-n-1:-1]))
